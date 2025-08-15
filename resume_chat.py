@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
@@ -9,6 +10,7 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
 # setup gemini api key
+load_dotenv()
 api_key = os.environ["GOOGLE_API_KEY"]
 
 # setup llm
