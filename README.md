@@ -13,3 +13,11 @@ This is a simple project that reads a PDF document stored in the root folder and
 - Python
 - LangChain
 - Gemini API
+
+## Instructions to Run the Project:
+- Create a virtual environment: Run `python -m venv venv` in the project directory.
+- Activate the virtual environment:
+  - On Windows: `venv\Scripts\activate`
+  - On macOS/Linux: `source venv/bin/activate`
+- Install dependencies: Run `pip install -r requirements.txt` to install the required packages.
+- Run the application: Execute `python resume_chat.py` to start the chat interface.
